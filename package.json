@@ -1,0 +1,30 @@
+{
+  "name": "tests-js",
+  "version": "1.0.0",
+  "description": "Test training",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "coverage": "nyc -x \"tests\" npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Currin18@github.com/Currin18/tests-js.git"
+  },
+  "author": "Jesus Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Currin18/tests-js/issues"
+  },
+  "homepage": "https://github.com/Currin18/tests-js#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
