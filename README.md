@@ -14,7 +14,11 @@ Test training
 
 ## Integration Tests
 
+API, UI, etc
+
 ## Functional Tests
+
+User
 
 ## End-to-End Tests
 
